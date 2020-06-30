@@ -165,7 +165,7 @@ p {
 }
 
 .row div{
-    margin-bottom: 6%;
+    margin-bottom: 3%;
 }
 
 .container{
@@ -173,4 +173,13 @@ p {
 }
 
   
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+   .col-sm-12 h2{
+    margin-left: 80%;
+  }
+
 }
