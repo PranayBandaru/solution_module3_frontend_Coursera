@@ -1,17 +1,7 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
 .container{
   margin-left: 1.3%;
-
-}
-body {
+  height: 80px;
+}body {
   font-size: 16px;
   color: #fff;  
   font-family: Helvetica;
@@ -22,7 +12,6 @@ body {
   background-color: #9AA6AB;
   border-radius: 0;
   border: 0;
-  height: 80px;
 }
 
 
@@ -62,6 +51,10 @@ body {
   margin-top: 5px;
 }
 
+.navbar-header{
+  padding-bottom: 10px;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid black;
 }
@@ -70,7 +63,6 @@ body {
   margin-top: -40px;
 }
 /* END HEADER */
-
 
 
 h1 {
@@ -149,12 +141,20 @@ p {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { 
+  .navbar-brand h1 { /* FOOD LLC */
     padding-top: 10px;
     font-size: 9vw; /* 1vw = 1% of viewport width */
   }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
 
   #collapsable-nav a { /* Collapsed nav menu text */
+
     font-size: 1.2em;
   }
 
@@ -166,6 +166,10 @@ p {
 
 .row div{
     margin-bottom: 6%;
+}
+
+.container{
+  height: auto;
 }
 
   
